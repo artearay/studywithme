@@ -1,4 +1,4 @@
-<?php require("./templates/header.php"); ?>
+<?php require("header.php"); ?>
 
     <div id="content">
         <h1>Idolish7</h1>
@@ -7,5 +7,5 @@
             </ul>
     </div>
     
-<?php require("./templates/footer.php"); ?>
+<?php require("footer.php"); ?>
 
