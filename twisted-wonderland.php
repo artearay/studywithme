@@ -1,4 +1,4 @@
-<?php require("./templates/header.php"); ?>
+<?php require("header.php"); ?>
 
     <div id="content">
         <h1>Twisted Wonderland</h1>
@@ -11,4 +11,4 @@
 
 
 
-<?php require("./templates/footer.php"); ?>
+<?php require("footer.php"); ?>
