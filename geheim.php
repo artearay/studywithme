@@ -1,8 +1,8 @@
 <?php
 
     //session_start();
-    require('templates/loginSystem.php');
-    require('./templates/header.php');
+    require('loginSystem.php');
+    require('header.php');
 ?>
 
     <div id="content">
@@ -24,7 +24,7 @@
     </div>
 
 <?php
-    require('./templates/footer.php');
+    require('footer.php');
 ?>
 
 
