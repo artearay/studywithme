@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: pink;
+    font-family: Tahoma, Arial;
+}
+
+#wrapper {                      /*id -> #*/
+    width: 680px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;                /*abgerundete Ecken*/
+    overflow: hidden;                   /*abgerundete Ecken auch beim Header*/
+    border: 1px solid black;            /*Rahmen*/
+}
+
+header {
+    height: 350px;
+    width: 680px;
+    background-image: url('./pictures/banner.png');
+}
+
+nav {
+    background-color: palevioletred;
+    overflow: auto;
+    height: 30px;
+}
+
+nav a {                                     /*Text in der Navigationsleiste*/
+    color: #f2f2f2;
+    text-decoration: none;                  /*Link/Text wird so nicht unterstrichen*/
+    font-size: 15px;
+}
+
+nav a:hover {
+    background-color: pink;
+    color: black;
+    padding: 3px;
+}
+
+nav a.active {
+    background-color: #04AA4D;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+nav li {
+    list-style-type: none;              /*Auflistungspunkte wegmachen*/
+    float: left;
+    margin: 5.5px 15px 5.5px 0;         /*top-right-bottom-left*/
+}
+
+#content {
+    clear: both;                    /*an beiden Seiten soll nichts mit float sein*/
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+footer {
+    /*border-top: 1px solid black;*/
+    text-align: center;
+    padding: 2px;
+}
+
+footer p {                      /*betrifft alle paragraph-elemente im footer*/
+    margin: 0;
+}
+
+a {                            /*alle anchor-elemente (Links)*/
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid palevioletred;
+    border-collapse: collapse;                  /*doppelter Rand verschwindet*/
+    text-align: left;
+    padding: 15px;                              /*mehr platz innerhalb der Tabelle*/
+    
+}
+
+tr:hover {                                      /*eine zeile wird mit Drüberfahren markiert*/
+    background-color: pink;
+}
+
+/*tr:nth-child(even) {
+    background-color: rgb(232, 192, 218);
+}*/
+
+label {
+    min-width: 140px;
+    display: inline-block;                  /*Kästchen sind gerade untereinander*/
+}
