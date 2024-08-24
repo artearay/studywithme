@@ -1,4 +1,4 @@
-<?php require("./templates/header.php"); ?>
+<?php require("./header.php"); ?>
 
         <div id="content">
             <h1>Auswertung</h1>
