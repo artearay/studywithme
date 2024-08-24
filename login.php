@@ -4,9 +4,9 @@
     
     //$_SESSION['eingeloggt'] = 1;
      
-    require('./templates/connectDB.php');
-    require('./templates/loginSystem.php');
-    require('./templates/header.php');
+    require('connectDB.php');
+    require('loginSystem.php');
+    require('header.php');
 ?>
 
     <div id="content">
