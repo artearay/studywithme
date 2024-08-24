@@ -1,10 +1,10 @@
-<?php require('./templates/header.php'); ?>
+<?php require('header.php'); ?>
 
     <div id="content">
             <h1>Twisted Wonderland - Episode of Heartslabyul [Kapitel 1]</h1>
             <p>Vokabeln des ersten Kapitels:</p>
 
-<?php require("./templates/connectDB.php");
+<?php require("connectDB.php");
 
         $db_res = runSQL("SELECT `ID`, `Vokabel (Kanji)`, `Vokabel (Kana)`, `Deutsche Übersetzung`, `Englische Übersetzung`, `Seite`, `Kontext`, `Notizen` FROM `twst-heartslabyul-1-chap-1`");
         //mysqli_query($db_link, "SELECT `ID`, `Vokabel (Kanji)`, `Vokabel (Kana)`, `Deutsche Übersetzung`, `Englische Übersetzung`, `Seite`, `Kontext`, `Notizen` FROM `kapitel 1`") 
