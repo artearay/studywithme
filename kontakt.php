@@ -1,4 +1,4 @@
-<?php require("./templates/header.php"); ?>
+<?php require("header.php"); ?>
 
         <div id="content">
             <h1>Kontakt</h1>
@@ -10,6 +10,6 @@
             </form>
         </div>
         
-<?php require("./templates/footer.php"); ?>
+<?php require("footer.php"); ?>
 
         
