@@ -1,4 +1,4 @@
-<?php require("./templates/header.php"); ?>
+<?php require("header.php"); ?>
 
     <div id="content">
         <h1>Mangas</h1>
@@ -7,4 +7,4 @@
                 <li><a href="twisted-wonderland.php">Twisted Wonderland</a></li>
             </ul>
     </div>
-<?php require("./templates/footer.php"); ?>
+<?php require("footer.php"); ?>
