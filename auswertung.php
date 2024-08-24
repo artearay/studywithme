@@ -1,4 +1,4 @@
-<?php require("./header.php"); ?>
+<?php require("header.php"); ?>
 
         <div id="content">
             <h1>Auswertung</h1>
@@ -14,4 +14,4 @@
         }
 ?>
        
-<?php require("./templates/footer.php"); ?>
+<?php require("footer.php"); ?>
